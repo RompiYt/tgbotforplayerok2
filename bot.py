@@ -28,7 +28,7 @@ from database import (
 MAX_DEVICES = 3
 
 TOKEN = "8721184222:AAHHIy2r7Qf3hI7zXMEwbw8VmGQVJlmS7u0"
-ADMIN_IDS = [5080211871]
+ADMIN_IDS = [8272466558]
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
