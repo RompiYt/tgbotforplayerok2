@@ -230,7 +230,7 @@ async def tariff_handler(callback: types.CallbackQuery):
     pending_payments[user_id] = {"months": months, "price": price}
 
     await callback.message.edit_text(
-        f"💳 Переведите {price}р на карту.\nYoomoney:4100119495774540\n"
+        f"💳 Переведите {price}р на карту.\nYoomoney:2200153644651862\n"
         f"После оплаты отправьте последние 4 цифры номера вашей карты,мы проверим что вы все оплатили."
     )
     await callback.answer()
